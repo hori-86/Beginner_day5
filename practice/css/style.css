@@ -192,8 +192,8 @@ footer{
 ================= */
 @media only screen and  (max-width:767px){
   .clear::after{
-    content: none;
-  }
+    content: none; /* ←floatを使った時のズレのおまじない */
+  }   
   /* ================
   header
   ================= */
